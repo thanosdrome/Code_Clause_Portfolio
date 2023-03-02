@@ -1,0 +1,192 @@
+@import url("https:fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #DDDDDD;
+  font-family: 'montserrat';
+}
+
+::-moz-selection {
+  background: #7f0505;
+  color: #DDDDDD;
+}
+
+::selection {
+  background: #7f0505;
+  color: #DDDDDD;
+}
+
+a {
+  color: #DDDDDD;
+}
+
+a:hover {
+  color: #7f0505;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*=====01.Home page css=====*/
+#home {
+  background: #101010;
+  width: 100%;
+  height: 100%;
+  z-index: 600;
+  position: relative;
+}
+
+#home-main {
+  display: block;
+}
+
+#home.home-particles {
+  background: #101010;
+}
+
+#home.home-particles .pg-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100% !important;
+  width: 100% !important;
+  opacity: .5;
+  pointer-events: none;
+}
+
+/*
+#side-menu{
+    display: none;
+}
+*/
+#home-section {
+  padding: 15px;
+}
+
+#home-section #bg {
+  display: block;
+  width: 100%;
+}
+
+#home-section #bg-mob {
+  display: none;
+}
+
+#home-top {
+  height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#home-top #home-top-left {
+  width: 65%;
+  opacity: 1;
+  z-index: 0;
+}
+
+#home-top #home-top-right {
+  width: 25%;
+  text-align: end;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+#home-middle {
+  position: relative;
+  bottom: 0px;
+  height: 250px;
+  z-index: 99999;
+}
+
+#home-middle img {
+  width: 100%;
+  padding: 75px 0 0 0;
+  z-index: 99999;
+}
+
+#home-bottom {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#home-bottom #home-bottom-left {
+  width: 65%;
+  font-size: 1.6em;
+  color: #DDDDDD;
+  z-index: 500;
+}
+
+#home-bottom #home-bottom-right {
+  width: 35%;
+  font-size: 1.6em;
+  text-align: end;
+  color: #DDDDDD;
+  z-index: 500;
+}
+
+#home-base {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#home-base #home-base-left {
+  width: 45%;
+  z-index: 9999;
+  display: block;
+}
+
+#home-base #home-base-left a {
+  display: inline-block;
+  padding: 1em 2.5em 0 0;
+  font-size: 1.3em;
+  color: #DDDDDD;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#home-base #home-base-left a:hover {
+  color: #7f0505;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#home-base #home-base-middle {
+  width: 25%;
+}
+
+#home-base #home-base-middle ul {
+  display: block;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+
+#home-base #home-base-middle ul li {
+  bottom: 5px;
+  display: inline-block;
+  padding: 0 .7em 0 .7em;
+  font-size: 1.8em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#home-base #home-base-right {
+  display: block;
+  width: 30%;
+  text-align: end;
+  font-size: 1.2em;
+}
+
+#home-base #home-base-right:hover {
+  color: #7f0505;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/*# sourceMappingURL=desktop.css.map */

@@ -1,0 +1,526 @@
+/*Content table For SCSS
+=====00.Global  ===== line 13  to 29
+=====01.Home    ===== line 30  to 568
+
+/*=====02.Projects=====*/
+/*=====03.Skills  =====*/
+/*=====04.Contact =====*/
+/*=====05.About   =====*/
+/*=====00.Global=====*/
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&display=swap");
+@font-face {
+  font-family: Montserrat-SemiBoldItalic;
+  src: url("../fonts/Montserrat-SemiBoldItalic.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #DDDDDD;
+  font-family: "Montserrat-SemiBoldItalic";
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  background: #7f0505;
+  color: #DDDDDD;
+}
+
+::selection {
+  background: #7f0505;
+  color: #DDDDDD;
+}
+
+a {
+  color: #DDDDDD;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+
+.first {
+  background-color: #4d0101;
+}
+
+.second {
+  background-color: #4d0101;
+  left: 33.3%;
+}
+
+.third {
+  background-color: #4d0101;
+  left: 66.6%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(146, 146, 146);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aa0000;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aa0000;
+}
+
+.headstyle {
+  font-family: "Bodoni Moda", serif;
+}
+
+/*=====01.Home page=====*/
+#home {
+  background: #101010;
+  width: 100%;
+  height: 100%;
+  z-index: 600;
+  position: relative;
+}
+
+#home-main {
+  padding: 8px;
+  display: flex;
+}
+
+#home.home-particles {
+  background: #101010;
+}
+
+#home.home-particles .pg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+#side-menu {
+  width: 10%;
+  padding: 0;
+  color: white;
+}
+#side-menu #side-menu-in {
+  margin: 10px 0 0 25px;
+  display: flex;
+  transform: rotate(90deg);
+  justify-content: end;
+  align-items: start;
+}
+#side-menu #side-menu-in a {
+  margin-right: 55px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#home-section {
+  width: 90%;
+}
+#home-section #bg {
+  display: none;
+}
+
+#home-top #home-top-left {
+  width: 100%;
+}
+#home-top #home-top-right {
+  display: none;
+}
+
+#home-middle {
+  position: relative;
+  bottom: 100px;
+}
+#home-middle img {
+  width: 100%;
+}
+
+#home-bottom {
+  padding-top: 10px;
+}
+#home-bottom #home-bottom-left {
+  font-size: 0.6em;
+}
+#home-bottom #home-bottom-right {
+  font-size: 0.6em;
+}
+
+#home-base #home-base-left {
+  display: none;
+  margin: 0;
+}
+#home-base #home-base-middle ul {
+  display: flex;
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+#home-base #home-base-middle ul li {
+  list-style-type: none;
+  padding-right: 2.5em;
+  font-size: 1.6em;
+}
+#home-base #home-base-right {
+  display: none;
+}
+
+a:hover {
+  color: #830000;
+  transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 300px) {
+  #home-base #home-base-middle ul li {
+    list-style-type: none;
+    padding-right: 2em;
+    font-size: 1.5em;
+  }
+  #home-base #home-base-middle ul li #insta {
+    padding-right: 0.1em;
+  }
+  #side-menu #side-menu-in a {
+    margin-right: 40px;
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 370px) {
+  #home-base #home-base-left {
+    display: none;
+    margin: 0;
+  }
+  #home-base #home-base-middle ul {
+    display: flex;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #home-base #home-base-middle ul li {
+    list-style-type: none;
+    padding-right: 2em;
+    font-size: 1.8em;
+  }
+  #home-base #home-base-middle ul li #insta {
+    padding-right: 0.1em;
+  }
+  #home-base #home-base-right {
+    display: none;
+  }
+}
+@media only screen and (min-width: 475px) {
+  #home-middle {
+    position: relative;
+    bottom: 125px;
+  }
+  #home-bottom #home-bottom-left {
+    font-size: 0.9em;
+  }
+  #home-bottom #home-bottom-right {
+    font-size: 0.9em;
+  }
+  #home-base #home-base-middle ul {
+    display: flex;
+    justify-content: start;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #home-base #home-base-middle ul li {
+    list-style-type: none;
+    padding-right: 3em;
+    font-size: 2em;
+  }
+  #home-base #home-base-middle ul li #insta {
+    padding-right: 0.1em;
+  }
+}
+@media only screen and (min-width: 576px) {
+  #home-middle {
+    position: relative;
+    bottom: 150px;
+  }
+  #side-menu #side-menu-in a {
+    font-size: 1.5em;
+  }
+  #home-bottom #home-bottom-left {
+    font-size: 1.1em;
+  }
+  #home-bottom #home-bottom-right {
+    font-size: 1.1em;
+  }
+  #home-base #home-base-middle ul {
+    display: flex;
+    justify-content: start;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #home-base #home-base-middle ul li {
+    list-style-type: none;
+    padding-right: 3em;
+    font-size: 2.3em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #home-middle {
+    position: relative;
+    bottom: 175px;
+  }
+  #side-menu #side-menu-in {
+    margin: 25px 0 0 25px;
+  }
+  #side-menu #side-menu-in a {
+    margin-right: 100px;
+    font-size: 2em;
+  }
+  #home-bottom #home-bottom-left {
+    font-size: 1.4em;
+  }
+  #home-bottom #home-bottom-right {
+    font-size: 1.4em;
+  }
+  #home-base #home-base-middle ul {
+    display: flex;
+    justify-content: start;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #home-base #home-base-middle ul li {
+    list-style-type: none;
+    padding-right: 3.5em;
+    font-size: 2.7em;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #home-top #home-top-left {
+    width: 90%;
+  }
+  #home-middle {
+    position: relative;
+    bottom: 200px;
+  }
+  #home-bottom #home-bottom-left {
+    font-size: 1.85em;
+  }
+  #home-bottom #home-bottom-right {
+    font-size: 1.85em;
+  }
+  #home-base #home-base-middle ul {
+    display: flex;
+    justify-content: start;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #home-base #home-base-middle ul li {
+    list-style-type: none;
+    padding-right: 3.5em;
+    font-size: 3.5em;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  #home-middle {
+    position: relative;
+    bottom: 250px;
+  }
+  #side-menu #side-menu-in {
+    margin: 35px 0 0 25px;
+  }
+  #side-menu #side-menu-in a {
+    margin-right: 100px;
+    font-size: 2.5em;
+  }
+  #home-bottom #home-bottom-left {
+    font-size: 2em;
+  }
+  #home-bottom #home-bottom-right {
+    font-size: 2em;
+  }
+  #home-base #home-base-middle ul {
+    display: flex;
+    justify-content: start;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #home-base #home-base-middle ul li {
+    list-style-type: none;
+    padding-right: 3.5em;
+    font-size: 4em;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  #side-menu {
+    display: none;
+  }
+  #home-main {
+    display: block;
+    padding: 15px;
+  }
+  #home-section {
+    width: 100%;
+  }
+  #home-section #bg {
+    display: block;
+    width: 100%;
+  }
+  #home-section #bg-mob {
+    display: none;
+  }
+  #home-top {
+    height: 175px;
+    display: flex;
+  }
+  #home-top #home-top-left {
+    width: 65%;
+    opacity: 0.8;
+    z-index: 0;
+  }
+  #home-top #home-top-right {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #home-top #home-top-right ul {
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
+  }
+  #home-top #home-top-right ul li {
+    bottom: 5px;
+    display: inline-block;
+    padding: 0 0.7em 0 0.7em;
+    font-size: 1.8em;
+    text-align: center;
+    cursor: pointer;
+  }
+  #home-top #home-top-right ul li #insta {
+    margin-right: -0.5em;
+  }
+  #home-top #home-top-right ul a:hover {
+    color: #830000;
+    transition: all 0.3s ease-in-out;
+  }
+  #home-middle {
+    position: relative;
+    bottom: 0px;
+    height: 250px;
+    z-index: 99999;
+  }
+  #home-middle img {
+    width: 100%;
+    padding: 75px 0 0 0;
+    z-index: 99999;
+  }
+  #home-bottom {
+    height: 100px;
+    display: flex;
+  }
+  #home-bottom #home-bottom-left {
+    width: 65%;
+    font-size: 1.6em;
+    color: #DDDDDD;
+    z-index: 500;
+  }
+  #home-bottom #home-bottom-right {
+    width: 35%;
+    font-size: 1.6em;
+    text-align: end;
+    color: #DDDDDD;
+    z-index: 500;
+  }
+  #home-base {
+    margin: 0 -10px 0 -10px;
+    border-radius: 50px;
+    height: 60px;
+    display: flex;
+  }
+  #home-base #home-base-left {
+    padding: 0 0 0 15px;
+    width: 45%;
+    z-index: 9999;
+    display: block;
+  }
+  #home-base #home-base-left a {
+    display: inline-block;
+    padding: 0em 2em 0 0;
+    font-size: 1.3em;
+    color: #DDDDDD;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #home-base #home-base-middle {
+    width: 25%;
+    display: none;
+  }
+  #home-base #home-base-right {
+    margin-left: 305px;
+    display: block;
+    width: 30%;
+    text-align: right;
+    font-size: 1.2em;
+  }
+  #home-base #home-base-right:hover {
+    color: #7f0505;
+    transition: all 0.3s ease-in-out;
+  }
+  #home-base:hover {
+    box-shadow: 0px 0px 10px #7f0505;
+    transition: 0.4s ease-in-out;
+  }
+}
+@media only screen and (min-width: 1340px) {
+  #home-base {
+    height: 60px;
+    display: flex;
+  }
+  #home-base #home-base-left {
+    width: 45%;
+    z-index: 9999;
+    display: block;
+  }
+  #home-base #home-base-left a {
+    display: inline-block;
+    padding: 1em 2.5em 0 0;
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  body {
+    max-width: 1450px;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  #home-section {
+    max-width: 1450px;
+  }
+  #home-bottom {
+    margin-top: 75px;
+    height: 100px;
+    display: flex;
+  }
+  #home-bottom #home-bottom-right {
+    width: 35%;
+    font-size: 1.6em;
+    text-align: end;
+    color: #DDDDDD;
+    z-index: 500;
+  }
+}
+/*=======Home-End=======*/
+#spacer {
+  padding: 30px;
+}
+
+/*=====03.Skills=====*/
+/*=====04.Contact=====*/
+/*=====05.About=====*//*# sourceMappingURL=style.css.map */
