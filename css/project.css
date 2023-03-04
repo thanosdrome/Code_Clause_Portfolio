@@ -2,10 +2,12 @@
 #project-top #project-top-left {
   width: 100%;
 }
+
 #project-top #project-top-left img {
   margin-bottom: 25px;
   width: 100%;
 }
+
 #project-top #project-top-right {
   display: none;
 }
@@ -23,19 +25,23 @@
 #title-digiexp {
   display: flex;
 }
+
 #title-digiexp #title-digiexp-left {
   width: 20%;
   font-size: 25px;
   padding-left: 20px;
 }
+
 #title-digiexp #title-digiexp-right {
   width: 80%;
   display: flex;
   justify-content: flex-end;
 }
+
 #title-digiexp #title-digiexp-right h2 {
   font-size: 25px;
 }
+
 #title-digiexp #title-digiexp-right span {
   font-size: 15px;
 }
@@ -43,6 +49,7 @@
 #mckup-digiexp {
   margin: 0px 25px 25px 25px;
 }
+
 #mckup-digiexp img {
   width: 100%;
   border-radius: 5px;
@@ -51,19 +58,23 @@
 #title-uttam {
   display: flex;
 }
+
 #title-uttam #title-uttam-left {
   width: 20%;
   font-size: 25px;
   padding-left: 20px;
 }
+
 #title-uttam #title-uttam-right {
   width: 80%;
   display: flex;
   justify-content: flex-end;
 }
+
 #title-uttam #title-uttam-right h2 {
   font-size: 25px;
 }
+
 #title-uttam #title-uttam-right span {
   font-size: 15px;
 }
@@ -71,6 +82,7 @@
 #mckup-uttam {
   margin: 5px 25px 25px 25px;
 }
+
 #mckup-uttam img {
   width: 100%;
   border-radius: 5px;
@@ -79,19 +91,23 @@
 #title-rajshahi {
   display: flex;
 }
+
 #title-rajshahi #title-rajshahi-left {
   width: 20%;
   font-size: 25px;
   padding-left: 20px;
 }
+
 #title-rajshahi #title-rajshahi-right {
   width: 80%;
   display: flex;
   justify-content: flex-end;
 }
+
 #title-rajshahi #title-rajshahi-right h2 {
   font-size: 25px;
 }
+
 #title-rajshahi #title-rajshahi-right span {
   font-size: 15px;
 }
@@ -99,6 +115,7 @@
 #mckup-rajshahi {
   margin: 5px 25px 25px 25px;
 }
+
 #mckup-rajshahi img {
   width: 100%;
   border-radius: 5px;
@@ -221,4 +238,5 @@
     width: 100%;
     border-radius: 5px;
   }
-}/*# sourceMappingURL=project.css.map */
+}
+/*# sourceMappingURL=project.css.map */

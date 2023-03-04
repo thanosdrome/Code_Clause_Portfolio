@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <title>THANOSDROME</title>
     <!-- CSS================================================== -->
-   <link rel="stylesheet" href="./css/style.css">
+ 
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/project.css">
+  
+    
     <!---<link rel="stylesheet" href="./css/d-style.css">-->
     <link href="./fonts/font-awesome/all.css" rel="stylesheet">
     <link href="./fonts/font-awesome/brands.css" rel="stylesheet"> 
   <!--script================================================== -->
 	<script src="./js/modernizr.js"></script>
 
-   
-<body id="home" class="home-particles">
+  </head> 
+<body id="home">
 <!--<div class="overlay first"></div>
     <div class="overlay second"></div>
     <div class="overlay third"></div>-->
@@ -77,6 +80,41 @@
 </main>
 <div id="spacer"></div>
 
+<section id="about-section">
+    <div id="about-upper"><img src="./img/about.svg" alt="About"></div>
+
+    <div id="about-middle">
+        <div id="about-pfp">
+        <img src="./img/pfp.png" alt="">
+        </div>
+
+        <div id="about-paragraph">
+        <h3>I'm Shudhanshu Ranjan</h3>
+        <p>An experienced web developer adept at
+            all stages of web development. user
+            interface, testing, and debugging
+            procedures, bringing forth expertise in
+            design, installation, testing, and
+            maintenance of web systems.</p>
+           <br>
+           <p> <span id="para2">
+            Proficient in an assortment of technologies,
+            including React.js, Node.js, Next.js, Django, PHP, MySQL,
+            WordPress, and web design applications
+            such as Figma and Adobe Xd. experienced
+            in graphics design and design tools such as
+            Photohsop and Adobe Illustrator. Able to
+            effectively self-manage during
+            independent projects as well as
+            collaborate in a team setting.</span></p>
+         </div>
+    </div>
+
+    <div id="about-bottom">
+    <button>Read More</button>
+    </div>
+</section>
+
 <section id="project-section">
     <div id="project-top">
         <div id="project-top-left">
@@ -93,8 +131,7 @@
                     <h2>01</h2>
                 </div>
                 <div id="title-digiexp-right">
-                    <h2 class="headstyle">Digital Expertz</h2>
-                    <h2></br> <span>Business And Marketing site</span></h2>
+                    <h2 class="headstyle">Digital Expertz</br> <span>Business And Marketing site</span></h2>
                 </div>
             </div>
             
@@ -142,9 +179,63 @@
 <!-- Contact section start --->
 
 <section id="contact-section">
+ <div id="contact-title">
+    <img src="./img/contact.svg" alt="">
+ </div>
 
+ <div id="contact-main"> 
+    <div id="contact-social">
+       
+        <p id="mailid">ranjanshudhanshu@gmail.com</p>
+
+        <div id="home-top">
+          
+            <div id="home-top-right">
+             <ul>
+                 <li><a id="linkedin" href="https://www.linkedin.com/in/shudhanshu-ranjan-tdrm/"><i class=fab>&#xf0e1;</i></a></li>
+                 <li><a id="github" href="https://github.com/thanosdrome"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                 <li><a id="youtube" href="https://www.youtube.com/channel/UCcYQMtz78hhiPliblNGxLUw"><i class="fab fa-youtube" aria-hidden="true"></i></a></li> 
+                 <li><a id="insta" href="https://www.instagram.com/thanosdrome/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+             </ul>
+            </div>
+         </div>
+    </div>
+
+    <div id="contact-formdiv">
+        <h3>FORM</h3>
+        <form method="POST" id="contactFor" name="contactForm" class="contactForm">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                    </div>
+                </div>
+                <div class="col-md-12"> 
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    
+                        <button id="contact-form-button">Submit</button>
+                    
+                </div>
+            </div>
+        </form>
 
 </section>
+
+
 
 <script  type="module" src="./js/ionicons.esm.js"></script>
 <!---<script src="./js/gsap.min.js"></script>
@@ -153,9 +244,6 @@ gsap.to(".first", 1.5, {delay: .5, top: "-100%", ease: Expo.easeInOut});
 gsap.to(".second", 1.5, {delay: .7, top: "-100%", ease: Expo.easeInOut});
 gsap.to(".third", 1.5, {delay: .9, top: "-100%", ease: Expo.easeInOut});
 </script>--->
-<script src="./js/jquery-2.1.3.min.js"></script>
-    <script src="./js/plugins.js"></script>
-    <script src="./js/main.js"></script>
    
 </body>
 </html>
