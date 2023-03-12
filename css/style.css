@@ -531,6 +531,10 @@ a:hover {
 
 /*=====03.Skills=====*/
 /*=====04.Contact=====*/
+#contact-section-image {
+  visibility: hidden;
+}
+
 #contact-title img {
   width: 25%;
 }
@@ -649,6 +653,13 @@ a:hover {
   }
 }
 @media only screen and (min-width: 1080px) {
+  #contact-section-image img {
+    visibility: visible;
+    width: 100%;
+  }
+  #contact-section {
+    visibility: hidden;
+  }
   #contact-social #home-top #home-top-left {
     width: 65%;
     opacity: 0.8;
